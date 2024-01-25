@@ -1,0 +1,87 @@
+#perfil {
+    color: black;
+    font-size: 25px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-bottom: 3rem;
+}
+
+body{
+    background-color: #ffccd6;
+     
+}
+
+footer {
+    background-color: #FFFFFE;
+    display: flex;
+    padding: 16px 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnav {
+    border: none;
+    background-color: transparent;
+   
+
+}
+
+.ft1 {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+
+
+.btnav2{
+    border: none;
+    background-color: transparent;
+}
+
+.ft2 {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 25px;
+
+}
+
+.btnav3{
+    border: none;
+    background-color: transparent;
+}
+
+.ft3 {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 25px;
+}
+
+.btnav4{
+    
+    display: flex;
+    padding: 4px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 80px;
+    background: #0E172C;
+}
+
+.ft4{
+    width: 24px;
+    height: 24px;
+    
+}
+
+.letra4 {
+    color: #85D1CE;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.07px;
+    margin-top: 12px;
+}

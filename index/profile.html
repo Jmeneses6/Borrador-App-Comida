@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/profile.css">
+    <!-- CSS only -->
+    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <title>Perfil Usuario</title>
+  </head>
+  <body style="background-color: #ffff; ">
+    <nav style="background-color: #Ffff;" >
+      <div class="container-fluid" style="background-color: #Ffff;">
+        <a class="navbar-brand" href="../index/guajolotas.html"><p id="perfil"><b>Volver</b></p></a>
+        
+      </div>
+    </nav>
+
+    <section
+      style="height: 80vh"
+      class="d-flex justify-content-center align-items-center">
+      <div class="card" style="background-color: #Ffff; border-color: #ffff;">
+        <div class="card-body text-center" >
+          <img
+            class="w-25"
+            style="height: 100px; margin-top: 1rem ;"
+            src="/img/profile.png"
+          />
+          <input 
+              autocomplete="off"
+              id="profile"
+              type="text"
+              class="form-control mt-1"
+              style="background-color: #Ffff; margin-bottom: -1rem; border-top: -1rem; text-align: center; border-color: #Ffff; color: black; font-size: 20px;"
+              placeholder="Juan Mendez"
+              disabled
+            />
+          <form class="p-5" style="background-color: #Ffff;">
+            <label for="name" style="margin-right: 26.5rem; margin-left: -2rem;" ><b>Nombre</b></label>
+            <input 
+              autocomplete="off"
+              id="name"
+              type="text"
+              class="form-control mt-1"
+              style="background-color: white; margin-bottom: 1rem; border-color: #FA4A0C; width: 19.5rem; margin-left: -2rem;"
+              placeholder="Juan Mendez"
+              disabled
+            />
+            <label for="email" style="margin-right: 28rem;  margin-left: -2rem;" ><b>Email</b></label>
+            <input
+              autocomplete="off"
+              id="email"
+              type="text"
+              class="form-control mt-1"
+              style="background-color: white; margin-bottom: 1rem; border-color: #FA4A0C; width: 19.5rem; margin-left: -2rem;"
+              placeholder="juanmendez123@gmail.com"
+              disabled
+            />
+            <label for="password" style="margin-right: 25rem;  margin-left: -2rem;" ><b>Contraseña</b></label>
+            <input
+              autocomplete="off"
+              id="password"
+              type="text"
+              class="form-control mt-1"
+              style="background-color: white; margin-bottom: 1rem; border-color: #FA4A0C; width: 19.5rem; margin-left: -2rem;"
+              placeholder="123456jm"
+              disabled
+            />
+            <label for="rol" style="margin-right: 25rem;  margin-left: -2rem;" ><b>Tipo</b></label>
+            <input
+              autocomplete="off"
+              id="rol"
+              type="text"
+              class="form-control mt-1"
+              style="background-color: white; margin-bottom: 1rem; border-color: #FA4A0C; width: 19.5rem; margin-left: -2rem;"
+              placeholder="Administrador"
+              disabled
+            />
+            <button id="guardar" class="d-none" style="background-color: #0E172C; color: white;  border-radius: 98px; width: 250px; height: 45px; border-color: black; margin-top: 2rem;">
+              Guardar
+            </button>
+          </form>
+          <button id="editar" class="btn btn-success mt-2">Editar</button>
+          <button id="eliminar" class="btn btn-danger text-end mt-2">
+            Eliminar cuenta
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../scripts/profile.js" type="module"></script>
+  </body>
+</html>

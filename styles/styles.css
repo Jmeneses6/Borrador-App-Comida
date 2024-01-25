@@ -13,11 +13,19 @@
     width: 22px;
 }
 
+#profile {
+    float: right;
+    margin-top: -14.2rem;
+    margin-right: 4rem;
+    width: 28px;
+}
+
 h1 {
     font-size: 35px;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 2rem;
+    font-family: 'Inter';
 }
 
 #search {
