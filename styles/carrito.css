@@ -1,0 +1,44 @@
+#return {
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 24px;
+    float: left;
+    margin-top: -.2rem;
+    margin-left: 1rem;
+    margin-right: -2rem;
+}
+
+#car {
+    text-align: center;
+    font-size: 22px;
+    margin-left: -1rem;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+#fondo {
+    width: 150px;
+    height: 150px;
+    margin-top: 11rem;
+    margin-left: 6rem;
+}
+
+#msg {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    font-weight: bold;
+
+}
+
+#pay {
+    background-color: #FA4A0C;
+    color: white;
+    border-color: transparent;
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    margin-left: 2rem;
+    margin-top: 7rem;
+    font-size: 17px;
+}

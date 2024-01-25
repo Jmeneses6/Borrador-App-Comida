@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Skranji&display=swap');
+
+#logo {
+    width: 65px;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#car {
+    float: right;
+    margin-top: -14rem;
+    margin-right: 1rem;
+    width: 22px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+#search {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+a {
+    text-decoration: none;
+}
