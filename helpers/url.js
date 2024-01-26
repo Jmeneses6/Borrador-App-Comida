@@ -1,0 +1,5 @@
+// export const USER = "https://json-2q61.vercel.app/Usuarios"
+export const USER = "http://localhost:3000/Usuarios"
+export const GUAD = "https://json-lk2y.vercel.app/Guajolotas"
+export const BEBIDA = "https://json-lk2y.vercel.app/Bebidas"
+export const TAMAL = "https://json-lk2y.vercel.app/Tamales" 

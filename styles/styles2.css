@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: lightgrey;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+#titulo {
+    margin: 30rem 1rem;
+    font-size: 70px;
+    text-align: center;
+}
+
+form {
+    margin: -29rem 10rem;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin: 1rem 8rem;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+input,
+textarea,
+select {
+    margin: 2rem -3rem 0 ;
+    width: 300%;
+    min-height: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 3rem 0;
+    border-bottom: 3px solid #3b3b4f;
+    margin-top: 2rem;
+}
+
+input,
+textarea {
+    background-color: black;
+    border: 1px solid black;
+    color: #ffffff;
+    border-radius: 1rem;
+    font-size: 28px;
+    padding-left: 1rem;
+    width: 28rem;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+#enviar {
+    display: block;
+    width: 10em;
+    margin: 5rem auto;
+    height: 2em;
+    font-size: 2rem;
+    background-color: black;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+}
+
+#age {
+    width: 5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+#age.input {
+    width: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+#showPassword {
+    width: 2rem;
+    float: right;
+    margin-top: -4.5rem;
+    margin-right: 1.5rem;
+}
+
+.center {
+    margin: auto 2rem;
+
+}
+
+.mid {
+    text-align: left;
+    margin-left: 2rem;
+    width: 28rem;
+    font-size: 15px;
+}
+
+#return {
+    background-color: black;
+    color: white;
+    border-color: lightgray;
+    margin-left: 4rem;
+    float: left;
+    margin-top: -24rem;
+    text-align: center;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    
+}
