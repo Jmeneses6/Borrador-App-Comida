@@ -6,4 +6,4 @@ const GetData = async (url)=>{
     return data
 }
 //!Exportar sin llaves
-export default GetData
+export default GetData;

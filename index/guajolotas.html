@@ -14,7 +14,7 @@
 <body>
     <a href="/index/index2.html"><img src="/img/logo.png" alt="Logo" id="logo"></a>
     <h1 style="font-weight: bold;">Nada como una Guajolota para empezar el día</h1>
-    <a href="/index/profile.html"><img src="/img/Profile.png" alt="Profile" id="profile"></a>
+    <a href="/index/login.html"><img src="/img/Profile.png" alt="Profile" id="profile"></a>
     <a href="/index/carrito.html"><img src="/img/shopping-cart.png" alt="Carrito" id="car"></a>
     <a href="/index/busqueda.html"><img src="/img/inputSearch.png" alt="" id="search"></a>
     <nav>
@@ -33,7 +33,17 @@
             <p id="sesionT" style="margin-left: 15rem; margin-top: -2.65rem; font-size: 20px; color: gray;">Tamales</p>
         </a>
     </nav>
-    <img src="/img/cards.png" alt="Guajolotas" style="margin-top: -2rem;">
+    <div id="cards">
+        <template id="template">
+            <a href="../index/info.html">
+                <img src="..." alt="..." id="image">
+                <h1 id="name">name</h1>
+                <p id="price"></p>
+            </a>
+        </template>
+    </div>
+    <script src="/scripts/CardsG.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 
 </html>

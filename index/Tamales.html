@@ -14,7 +14,7 @@
 <body>
     <a href="/index/index2.html"><img src="/img/logo.png" alt="Logo" id="logo"></a>
     <h1>Nada como una Guajolota para empezar el día</h1>
-    <a href="/index/profile.html"><img src="/img/Profile.png" alt="Profile" id="profile"></a>
+    <a href="/index/login.html"><img src="/img/Profile.png" alt="Profile" id="profile"></a>
     <a href="/index/carrito.html"><img src="/img/shopping-cart.png" alt="Carrito" id="car"></a>
     <a href="/index/busqueda.html"><img src="/img/inputSearch.png" alt="" id="search"></a>
     <nav>
@@ -33,7 +33,16 @@
             <p id="sesionT" style="margin-left: 15rem; margin-top: -2.8rem; font-size: 20px; color: #FA4A0C; text-decoration: underline;">Tamales</p>
         </a>
     </nav>
-    <img src="/img/cards (2).png" alt="Guajolotas" style="margin-top: -2rem">
+    <div id="cardsT">
+        <template id="templateT">
+            <img src="..." alt="..." id="image">
+            <h1 id="name">name</h1>
+            <p id="price"></p>
+        </template>
+    </div>
+    <!-- <img src="/img/cards (2).png" alt="Guajolotas" style="margin-top: -2rem"> -->
+    <script src="/scripts/CardsT.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 
 </html>

@@ -4,7 +4,8 @@
       "name": "Jose Meneses",
       "email": "josemeneses6@gmail.com",
       "password": "654321jm",
-      "id": 90
+      "id": 90,
+      "rol": "Administrador"
     },
     {
       "id": 2,

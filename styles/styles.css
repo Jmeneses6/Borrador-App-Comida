@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Skranji&display=swap');
 
+body {
+    background-color: #f2f2f2;
+    height: 1050px;
+}
+
 #logo {
     width: 65px;
     margin-top: 0.5rem;
@@ -33,8 +38,47 @@ h1 {
     margin-top: 1rem;
 }
 
-
-
 a {
     text-decoration: none;
+}
+
+#cards, #cardsB, #cardsT {
+    background-color: #ffff;
+    border-radius: 20px;
+    height: 550px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#cards, #cardsB, #cardsT,:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+#price {
+    color: #FA4A0C;
+    font-weight: bold;
+    font-family: 'inter';
+    text-align: center;
+    margin-top: -.5rem;
+}
+
+#name{
+    font-family: 'inter';
+    font-size: 17px;
+    text-align: center;
+    margin-top: -4rem;
+}
+
+#image {
+    width: 80px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    padding-right: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
